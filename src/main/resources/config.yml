@@ -1,0 +1,14 @@
+# Environmental conditions settings
+environmental_conditions:
+  enable_thunderstorms: true
+  lightning_strike_interval: 600  # Interval in ticks (30 seconds)
+  intense_heat_damage_interval: 1200  # Interval in ticks (60 seconds)
+
+# Night effects settings
+night_effects:
+  enable: true
+  slowness_level: 2
+  blindness_level: 1
+  night_start_time: 13000  # Start time in ticks
+  night_end_time: 23000  # End time in ticks
+  check_interval: 200  # Interval in ticks for checking night status

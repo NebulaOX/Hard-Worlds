@@ -1,0 +1,22 @@
+name: HardWorlds
+version: '${project.version}'
+main: org.plugin.hardworlds.HardWorlds
+api-version: '1.21'
+commands:
+  customevents:
+    description: Manages custom events
+    usage: /customevents <start|stop|list> [event]
+    permission: customevents.use
+permissions:
+  customevents.use:
+    description: Allows a player to use the customevents command
+    default: op
+  customevents.start:
+    description: Allows a player to start events
+    default: op
+  customevents.stop:
+    description: Allows a player to stop events
+    default: op
+  customevents.list:
+    description: Allows a player to list events
+    default: true
